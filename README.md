@@ -51,8 +51,37 @@
 
 ## ENDPOINTS/URLS/API calls
 
-#### Query all the Technicians in the Database
+# Technician
+
+#### Create a technicians
 * on local machine     http://localhost:1337/meko/api/v1/technicianendpoints
 
-#### Query all the customers in the Database
+#### Get all technicians
+* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints
+
+#### Get a technician
+* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/_id
+
+#### Update a technician
+* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/_id
+
+#### Delete a technician
+* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/_id
+
+
+# Customer
+
+#### Create a customer
 * on local machine     http://localhost:1337/meko/api/v1/customerendpoints
+
+#### Get all customers
+* on local machine     http://localhost:1337/meko/api/v1/customerendpoints
+
+#### Get a customer
+* on local machine     http://localhost:1337/meko/api/v1/customerendpoints/_id
+
+#### Update a customer
+* on local machine     http://localhost:1337/meko/api/v1/customerendpoints/_id
+
+#### Delete a customer
+* on local machine     http://localhost:1337/meko/api/v1/customerendpoints/_id
