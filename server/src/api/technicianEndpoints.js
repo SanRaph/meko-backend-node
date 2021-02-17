@@ -1,5 +1,4 @@
 const { Router, json } = require('express');
-const { findOne } = require('../models/TechnicianEntry');
 
 const TechnicianEntry = require('../models/TechnicianEntry');
 
