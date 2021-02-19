@@ -16,7 +16,7 @@
    * [x] Setup Not Found and Error Middlewares (routes)
 #### Technician
 * [x] Model DB
-   * [] What data will we store? (Technician Schema)
+   * [x] What data will we store? (Technician Schema)
 * [x] Setup Mongoose model(s)
 * [x] POST /technician
 * [x] Create a new technician entry
@@ -24,11 +24,6 @@
 * [x] UPDATE /id
 * [x] DELETE /id
    * List all technician entries
-
-* [x] Setup Client 
-* [x] Create Form to add a new technician
-* [x] Setup Map SDK on Client
-* [x] List all technician entries on map
 
 #### Customer
    * [x] Model DB
@@ -49,24 +44,36 @@
 * [] Setup Map SDK on Client
 * [] List all customer entries on map
 
+
+* [] Setup Client 
+* [] Create Form to add a new technician
+* [] Setup Map SDK on Client
+* [] List all technician entries on map
+
+* [] Create project in Heroku
+* [] Upload project to Heroku
+* [] Publish project
+
+
+
 ## ENDPOINTS/URLS/API calls
 
 # Technician
 
-#### Create a technicians
+#### Create a technician
 * on local machine     http://localhost:1337/meko/api/v1/technicianendpoints
 
 #### Get all technicians
 * on local machine     http://localhost:1337/meko/api/v1/technicianendpoints
 
 #### Get a technician
-* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/_id
+* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/602d249ed5d67318a411022d
 
 #### Update a technician
-* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/_id
+* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/602d249ed5d67318a411022d
 
 #### Delete a technician
-* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/_id
+* on local machine     http://localhost:1337/meko/api/v1/technicianendpoints/602d249ed5d67318a411022d
 
 
 # Customer
